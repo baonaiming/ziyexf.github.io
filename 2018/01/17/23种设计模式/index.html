@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="5KGR">
 <meta property="og:description" content="三大类：创建型模式，共五种：工厂方法模式、抽象工厂模式、单例模式、建造者模式、原型模式。 1、工厂方法模式（Factory Method） 总结：定一个工厂类，内部生成产品对象。 工厂方式模式分为三种： 11、普通工厂模式 22、多个工厂方法模式 33、静态工厂方法模式 总体来说，工厂模式适合：凡是出现了大量的产品需要创建，并且具有共同的接口时，可以通过工厂方法模式进行创建。在以上的三种模式中，第">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-31T06:40:15.071Z">
+<meta property="og:updated_time" content="2018-02-01T08:57:18.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="23种设计模式">
 <meta name="twitter:description" content="三大类：创建型模式，共五种：工厂方法模式、抽象工厂模式、单例模式、建造者模式、原型模式。 1、工厂方法模式（Factory Method） 总结：定一个工厂类，内部生成产品对象。 工厂方式模式分为三种： 11、普通工厂模式 22、多个工厂方法模式 33、静态工厂方法模式 总体来说，工厂模式适合：凡是出现了大量的产品需要创建，并且具有共同的接口时，可以通过工厂方法模式进行创建。在以上的三种模式中，第">
@@ -204,14 +204,7 @@
 <p>4、建造者模式（Builder）</p>
 <p>5、原型模式（Prototype）</p>
 <p>结构型模式，共七种：适配器模式、装饰器模式、代理模式、外观模式、桥接模式、组合模式、享元模式。</p>
-<p>​                            （1)适配器模式</p>
-<p>​                             类的适配器模式</p>
-<p>​                                    ↓</p>
-<p>​        装饰模式        ←        对象的适配器模式        →    桥接模式</p>
-<p>​            ↓                        ↓                        ↓</p>
-<p>​        代理模式                接口的适配器模式            组合模式</p>
-<p>​            ↓                                            ↓</p>
-<p>​        外观模式                                         享元模式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">					（1)适配器模式</span><br><span class="line"></span><br><span class="line">					 类的适配器模式</span><br><span class="line"></span><br><span class="line">						    ↓</span><br><span class="line"></span><br><span class="line">装饰模式		←		对象的适配器模式		→	桥接模式</span><br><span class="line"></span><br><span class="line">	↓					    ↓						↓</span><br><span class="line"></span><br><span class="line">代理模式				接口的适配器模式			组合模式</span><br><span class="line"></span><br><span class="line">	↓											↓</span><br><span class="line"></span><br><span class="line">外观模式										 享元模式</span><br></pre></td></tr></table></figure>
 <p>6、适配器模式</p>
 <p>类的适配器模式：当希望将<strong>一个类</strong>转换成满足<strong>另一个新接口</strong>的类时，可以使用类的适配器模式，创建一个新类，继承原有的类，实现新的接口即可。</p>
 <p>对象的适配器模式：当希望将一个对象转换成满足另一个新接口的对象时，可以创建一个Wrapper类，持有原类的一个实例，在Wrapper类的方法中，调用实例的方法就行。</p>
